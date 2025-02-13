@@ -1,1 +1,1 @@
-# java-riact-2025
+# java-react-2025
