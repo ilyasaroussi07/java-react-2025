@@ -6,6 +6,7 @@ public class ComentarioVariasLineas {
 		for(int i=0 ; i<6 ; i++ )
 			System.out.print(i+" ");
 		System.out.println("FIN DE PROGRAMA");
+		// Este código hace un bucle de 0 a 5 y muestra los números
 	}
 
 }
