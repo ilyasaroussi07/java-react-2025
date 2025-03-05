@@ -8,7 +8,6 @@ public class T5ejercicio2 {
 		String nombre = "Ilyas";
 //		System .out .println("Bienvenido " + nombre);
 //		String usuario="ilyas-moha";
-//		
 //		System .out .println("Mensaje bienvenida a " + usuario);
 		
 		//Recopilar datos por JOptionPane
