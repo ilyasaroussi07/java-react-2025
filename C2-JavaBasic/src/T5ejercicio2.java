@@ -22,7 +22,6 @@ public class T5ejercicio2 {
 		System.out.println("Bienvenido " + nombre);
 		//Cierrar el Scanner
 		sc.close();
-
 	}
 
 }
