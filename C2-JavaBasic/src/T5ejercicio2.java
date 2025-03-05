@@ -6,6 +6,7 @@ public class T5ejercicio2 {
 	public static void main(String[] args) {
 		
 		String nombre = "Ilyas";
+		
 //		System .out .println("Bienvenido " + nombre);
 //		String usuario="ilyas-moha";
 //		System .out .println("Mensaje bienvenida a " + usuario);
