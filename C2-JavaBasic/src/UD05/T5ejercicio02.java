@@ -2,7 +2,7 @@ package UD05;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
-public class T5ejercicio2 {
+public class T5ejercicio02 {
 
 	public static void main(String[] args) {
 		

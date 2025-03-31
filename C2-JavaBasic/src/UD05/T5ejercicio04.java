@@ -1,7 +1,7 @@
 package UD05;
 import javax.swing.JOptionPane;
 
-public class T5ejercicio4 {
+public class T5ejercicio04 {
 
 	public static void main(String[] args) {
 //		 Haz una aplicación que calcule el área de un circulo (pi*R2). El radio se pedirá por teclado

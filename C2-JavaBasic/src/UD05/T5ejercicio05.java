@@ -1,7 +1,7 @@
 package UD05;
 import javax.swing.JOptionPane;
 
-public class T5ejercicio5 {
+public class T5ejercicio05 {
 
 	public static void main(String[] args) {
 //		Lee un número por teclado e indica si es divisible entre 2 (resto = 0). Si no lo es, también
