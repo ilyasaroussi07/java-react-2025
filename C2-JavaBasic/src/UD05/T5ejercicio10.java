@@ -1,3 +1,4 @@
+package UD05;
 import javax.swing.JOptionPane;
 
 public class T5ejercicio10 {

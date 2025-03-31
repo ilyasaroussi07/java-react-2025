@@ -1,4 +1,4 @@
-package UD04 JAVA;
+package UD04JAVA;
 
 public class ClaseInteger1 {
 

@@ -1,3 +1,4 @@
+package UD06;
 import javax.swing.JOptionPane;
 public class T6ejercicio11 {
 
