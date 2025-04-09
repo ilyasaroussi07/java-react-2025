@@ -3,7 +3,7 @@ import java.util.Random;
 
 import javax.swing.JOptionPane;
 
-public class T6ejercicio2 {
+public class T6ejercicio02 {
 
 	public static void main(String[] args) {
 		int cantRadoms = Integer.parseInt(JOptionPane.showInputDialog("Introduce "

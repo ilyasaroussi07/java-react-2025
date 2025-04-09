@@ -1,4 +1,6 @@
 package UD05;
+
+import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 public class T5ejercicio13 {
@@ -9,16 +11,22 @@ public class T5ejercicio13 {
 							+ "Introduce el primer operador: "));
 				int op2 = Integer.parseInt(JOptionPane.showInputDialog("" 
 							+ "Introduce el segundo operador: "));
-				String signo = JOptionPane.showInputDialog("" 
-							+ "Introduce signo aritmético: ");
+				//Equivalente el JOPtionPane con Scanner
+//				String signo = JOptionPane.showInputDialog("Introduce signo aritmético: ");
+				Scanner escanerConsola = new Scanner(System.in);
+				System.out.println("Introduce signo aritmético: ");
+				String signo = escanerConsola.nextLine();
+				escanerConsola.close();
+				
+				
 				String resultado = "";
 				// Cálculos
 				switch (signo) {
 					case "+":
-						resultado = "Suma " + op1 + "+" + op2 + " = " + (op1 + op2);
+						resultado = "Suma " + op1 + signo + op2 + " = " + (op1 + op2);
 						break;
 					case "-":
-						resultado = "Resta " + op1 + "-" + op2 + " = " + (op1 - op2);
+						resultado = "Resta " + op1 + signo + op2 + " = " + (op1 - op2);
 						break;
 					case "/":
 						if (op2 == 0) {
@@ -40,7 +48,9 @@ public class T5ejercicio13 {
 						resultado = "Esto no es un símbolo de operación aritmética";
 						break;
 				}
+				System.out.println(resultado);
 				JOptionPane.showMessageDialog(null, resultado);
+				
 			
 	}
 

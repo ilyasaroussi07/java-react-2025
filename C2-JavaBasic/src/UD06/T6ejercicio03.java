@@ -1,7 +1,7 @@
 package UD06;
 import javax.swing.JOptionPane;
 
-public class T6ejercicio3 {
+public class T6ejercicio03 {
 
 	public static void main(String[] args) {
 		int numPrimo = 13; //Número que revisamos si es primo

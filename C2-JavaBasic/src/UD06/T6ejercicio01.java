@@ -1,7 +1,7 @@
 package UD06;
 import javax.swing.JOptionPane;
 
-public class T6ejercicio1 {
+public class T6ejercicio01 {
 
 	public static void main(String[] args) {
 		// Pedir los datos del polígono
