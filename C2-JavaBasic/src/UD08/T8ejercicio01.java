@@ -1,6 +1,6 @@
 package UD08;
 
-public class T8ejercicio1 {
+public class T8ejercicio01 {
 
 	
 		private String nombre;

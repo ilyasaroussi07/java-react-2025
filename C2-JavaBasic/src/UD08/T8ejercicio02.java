@@ -1,6 +1,6 @@
 package UD08;
 
-public class T8ejercicio2 {
+public class T8ejercicio02 {
 
 	public static void main(String[] args) 
 	{
