@@ -20,7 +20,8 @@ public class T7ejercicio01 {
 	// Mètode per demanar noms i notes dels alumnes
 	public static Map<String, ArrayList<Double>> demanarNotes(Scanner scanner) {
 		Map<String, ArrayList<Double>> dades = new HashMap<>();
-
+		//Define un mapa que asocia una clave de tipo String (por ejemplo, 
+		//el nombre de un alumno) con un valor de tipo ArrayList<Double> (por ejemplo, una lista de notas del alumno).
 		System.out.print("Quants alumnes vols introduir? ");
 		int numAlumnes = scanner.nextInt();
 		scanner.nextLine(); // Neteja buffer
